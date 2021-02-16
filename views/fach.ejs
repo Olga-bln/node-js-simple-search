@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>chosen subject</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen" />
+</head>
+
+<body>
+<% if (err === 1) { %>
+    <h1>Bitte mögliches Fach wählen</h1>
+    <%  } else { %>
+    <h1>
+        <%= subject %>
+    </h1>
+    <%  } %>
+    <ul>
+        <% winners.forEach( (winner, i) => { %>
+                 
+            <li>
+                  <%= winners[i].name %> <%= winners[i].year %> 
+        </li>
+        <% }); %>
+    </ul>
+ 
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Nobel-Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>
+
+    <h1>Alle vorhandenen Gewinner</h1>
+
+    
+    <% winners.forEach( (winner, i) => { %>
+        <p>
+         <%=winners[i].subject %>    <%= winners[i].year %>     <%=winners[i].name %>
+    </p>
+      <% }); %>
+     
+    
+
+</body>
+
+</html>
