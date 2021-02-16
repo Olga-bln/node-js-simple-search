@@ -1,0 +1,24 @@
+*{
+   margin: 0;
+   padding: 0; 
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-align: center;
+}
+
+h1 {
+   margin: 3rem;
+   font-size: 5rem;
+}
+
+li, p {
+   list-style: none;
+   text-align: left;
+   font-size: 1.15rem;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul, p {
+   width: 20vw;
+   margin: 0 auto;
+}
+
